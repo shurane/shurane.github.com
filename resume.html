@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- vim: set ts=2 sw=2 sts=2: -->
+<html>
+<!--
+  -Markdown, markdown!
+  - I was hoping for a better template from alistapart.com.
+  - Well that'll have to do, pig. That'll have to do.
+  - TODO remove unused CSS classes. Find out article, header, and hgroup tags
+  - simplify structure, less is more!
+  -->
+<head>
+<title>Ehtesh's Resume</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link href="resume.css" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+  <div id="inner-wrap">
+    <div id="main" role="main">
+      <div class="col col-one">
+        <div>
+          <header class="title">
+            <hgroup>
+            <h1>Ehtesh Choudhury</h1>
+            </hgroup>
+          </header>
+
+          <div class="divider"></div>
+
+          <div id="contact-info">
+            <div>518-612-9466</div>
+            <div><a href="mailto:e.chowder@outlook.com?subject=feedback">e.chowder@outlook.com</a></div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="experience headlines">
+            <h1>Experience</h1>
+            <article>
+              <hgroup>
+              <h2 class="job-location">kikin Inc.</h2>
+              <h3 class="job-title">Software Engineer</h3>
+              </hgroup>
+              <div class="date-ranges">
+                <span class="job-start">Dec 2012</span>
+                <span class="job-end">Present</span>
+              </div>
+              <p class="job-details">Automated nightly builds for Android devices.</p>
+              <p class="job-details">Extended kikin integration to additional Android devices.</p>
+            </article>
+            <article>
+              <div class="date-ranges">
+                <span class="job-start">Dec 2011</span>
+                <span class="job-end">Sept 2012</span>
+              </div>
+              <p class="job-details">Integrated kikin Search to various Android devices on the Operating System level through code on top of <a href="http://source.android.com/">AOSP</a>.</p>
+              <p class="job-details">Developed Windows 8/Metro prototype of KikinSearch in C#.</p>
+              <p class="job-details">prototyped several UI concepts for displaying search results for KikinSearch in Android.</p>
+              <p class="job-details">Created an analytics system for anonymously tracking clicks, swipes, and other gestures to accurately model user intent from user interactions.</p>
+              <p class="job-details">Setup servers to sync Android source code and integrate new users into Android ecosystem.</p>
+            </article>
+            <article>
+              <div class="date-ranges">
+                <span class="job-start">Aug 2011</span>
+              </div>
+              <p class="job-details">Extended <a href="https://github.com/shurane/favicon">favicon service</a> to support gzip, apple-touch-icon, http meta-refresh, and the conversion of gif/jpg to png. Made to support standard-breaking websites and cache favicons to a server for easier access.</p>
+              <p class="job-details">Wrote an audio service to transcode Ogg/Vorbis audio to MP3 for usage in iOS applications.</p>
+              <p class="job-details">Integrated partial Twitter support into kikin iOS app.</p>
+            </article>
+            <article>
+              <div class="date-ranges">
+                <span class="job-start">July 2010</span>    
+              </div>
+              <p class="job-details">Created a scraper to automate data gathering from an affiliate to an internal database.</p>
+              <p class="job-details">Benchmarked datastore on Amazon S3 in search of an improved configuration to store user data.</p>
+              <p class="job-details">Reconfigured existing data structures to reduce the number of queries between servers and Amazon S3 datastore.</p>
+            </article>
+            <article>
+              <hgroup>
+              <h2 class="job-location">Stony Brook University</h2>
+              <h3 class="job-title">B.S. in Computer Science</h3>
+              </hgroup>
+              <div class="date-ranges">
+                <span class="job-start">Fall 2008</span>
+                <span class="job-end">Fall 2012</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="projects headlines">
+            <h1>Projects</h1>
+            <article>
+              <hgroup>
+              <h2 class="job-title">WolfScript and WolfScheme Programming Languages</h2>
+              </hgroup>
+              <p class="job-details">Uses abstract syntax trees to model and parse expressions for minimal Lisp and C-like languages.</p>
+              <p class="job-details">Constructs rules using EBNF-like grammar with a recursive-descent (LL(k)) parser.</p>
+              <p class="job-details">Implemented both imperative and functional language paradigms to explore language concepts such as variable scoping, operator overloading, anonymous lambda functions, and lazy evaluation.</p>
+            </article>
+            <article>
+              <hgroup>
+              <h2 class="job-title">aosp_buildcheck</h2>
+              </hgroup>
+              <p class="job-details">checks if a computer is setup to build AOSP from scratch.</p>
+              <p class="job-details">checks for missing dependencies: libraries, binaries.</p>
+              <p class="job-details">checks for misconfigured setups. Examples: building on a MIRROR instead of a regular repo, checking suboptimal ccache settings, verifying java binary is indeed from Oracle and not OpenJDK or some other provider.</p>
+            </article>
+            <article>
+              <hgroup>
+              <h2 class="job-title">Sunny, alternative to Stony Brook SOLAR system</h2>
+              </hgroup>
+              <p class="job-details">inspired by courseoff.com and schedulizer.com .</p>
+              <p class="job-details">uses Twitter Bootstrap frontend framework.</p>
+              <p class="job-details">provides students an easy  way to filter classes.</p>
+              <p class="job-details">SOLAR is a non-RESTful service that uses some strange combination of JSP, Oracle SQL, and AJAX to provide a single session to the user.</p>
+              <p class="job-details">SOLAR doesn't allow multiple sessions or windows, course comparison, easy visualization.</p>
+              <p class="job-details">Sunny is an aim towards a simpler course discovery system than Solar.</p>
+            </article>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="etc headlines">
+            <h1>Etc.</h1>
+
+            <article>
+              <hgroup>
+              <h2>Special Skills</h2>
+              </hgroup>
+              <dl >
+                <dt>Languages</dt>
+                <dd>Python, Java, C#, Javascript, Bash, Sed, Awk, C, SQL</dd>
+                <dt>Frameworks</dt>
+                <dd>UNIX, Android, flask, markup.py, bootstrap</dd>
+                <dt>Tools to boost productivity</dt>
+                <dd>vim, <a href="http://ipython.org/">ipython</a>, <a href="https://github.com/clvv/fasd">fasd</a>, <a href="http://mosh.mit.edu/">mosh</a>, <a href="http://www.gnu.org/software/readline/">GNU readline</a>, <a href="http://utopia.knoware.nl/~hlub/rlwrap/#rlwrap">rlwrap</a>, <a href="http://geoff.greer.fm/2011/12/27/the-silver-searcher-better-than-ack/">ag</a>, <a href="https://github.com/nkohari/jwalk">jwalk</a></dd>
+              </dl>
+            </article>
+
+            <article>
+              <h2>Interests</h2>
+              <ul>
+                <li><a href="http://sethgodin.typepad.com/seths_blog/2005/03/dont_shave_that.html">Not yak-shaving too much</a></li>
+              </ul>
+            </article>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+</body>
+</html>
