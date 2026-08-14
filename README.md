@@ -1,4 +1,0 @@
-shurane.github.com
-==================
-
-Blog.
